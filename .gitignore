@@ -1,0 +1,49 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Результаты сборки .NET и тестов
+[Bb]in/
+[Oo]bj/
+artifacts/
+TestResults/
+coverage/
+coverage*/
+*.trx
+*.coverage
+*.coveragexml
+project.lock.json
+project.fragment.lock.json
+
+# Локальные настройки IDE
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.iml
+*.DotSettings.user
+_ReSharper*/
+*.ncrunchsolution
+*.ncrunchproject
+
+# Локальная конфигурация и секреты
+appsettings.Local.json
+appsettings.*.local.json
+.env
+.env.*
+!.env.example
+
+# Локальные сохранения, кэши и диагностические данные
+*.db
+*.db-shm
+*.db-wal
+*.log
+models/
+
+# Дефолтный ambient.mp3 входит в проект; остальные треки пользовательские.
+assets/music/*
+!assets/music/README.md
+!assets/music/ambient.mp3
